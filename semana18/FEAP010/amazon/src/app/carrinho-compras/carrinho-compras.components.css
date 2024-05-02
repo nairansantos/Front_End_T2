@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.subtotal-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.subtotal-amount {
+    color: #5100ff;
+}
+
+.custom-btn {
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.custom-btn:hover {
+    opacity: 0.8;
+}
