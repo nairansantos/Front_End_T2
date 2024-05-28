@@ -1,7 +1,0 @@
-<form (submit)="submitForm()">
-  <div *ngFor="let campo of camposDoForm">
-    <label for="{{campo.nome}}">{{campo.rotulo}}</label>
-    <input type="{{campo.tipo}}" [id]="campo.nome" [(ngModel)]="formData[campo.nome]">
-  </div>
-  <button type="submit">Enviar</button>
-</form>
